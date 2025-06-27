@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Yuo.png">
+    <title>Сайт Рогалика.</title>
+</head>
+<body>
+    <section id="language">
+        <ul style="font-size: 24px;">
+            <li><a href="indexru.html">Ru</a></li>
+            <li><a href="index.html">En</a></li>
+        </ul>
+    </section>
+    <h1>Рогалик <span class="yuo"></span></h1>
+    <p>Это моя игра в жанре рогалик.</p>
+    <p>Управление: WASD(или ЦФЫВ) или ↑←↓→(Стрелки) чтобы двигаться, нажатие по мыши или пробел чтобы делать выстрелы.</p>
+    <p>Ты хочешь сыграть в <span style="text-decoration: underline;">игру</span>?</p>
+    <a href="game.html" style="font-size: 40px;">Иди, вставь монету.</a>
+    <p>Игра будет на белом фоне.</p>
+    <p>И покажет статистику йюо(тебя).</p>
+    <img src="Stats.png" alt="Statistic of you." draggable="false">
+    <p>Давай узнаем что они означают.</p>
+    <ul class="left">
+        <li><span class="drop" style="--DropClr:var(--green);"></span>PlayerHealth - Ваше здоровье. Может быть приблавлен к максимуму от дропов восстановления - хилок и аптечек.</li>
+        <li><span class="drop" style="--DropClr:var(--magenta);"></span>MaxPlayerHp - Максимум вашего здоровья. Тоесть ты не можешь иметь здоровья, больше от этого показателя дропов восстановления.</li>
+        <li><span class="drop" style="--DropClr:var(--red);"></span>Damage - Урон ваших пулей. Может сократиться от дропов перезарядки.</li>
+        <li><span class="drop" style="--DropClr:var(--cyan);"></span>Reload - Перезарядка вашей атаки. Может увеличиваться(атака будет реже) от дропов урона.</li>
+        <li><span class="drop" style="--DropClr:var(--turquoise);"></span>MinReload - Минимальная перезарядка вашей атаки. Не может изменятся в течение игры, но измениться при подборе дропов оружия.</li>
+        <li><span class="drop" style="--DropClr:var(--yellow);"></span>BulletSpeed - Скорость пулей вашей атаки. Может измениться от дропов скорости пулей.</li>
+        <li><span class="drop" style="--DropClr:var(--blue);"></span>PlayerSpeed - Ваше движение. Может сократиться от дропов брони.</li>
+        <li><span class="drop" style="--DropClr:var(--wh_gray);"></span>Armor - Ваша броня. Может сократиться от дропов скорости.</li>
+        <li><span class="drop" style="--DropClr:var(--bl_gray);"></span>MaxArmor - Максимум вашей брони. Может увеличиться при досижении лимит вашей статистики.</li>
+        <li><span class="drop" style="--DropClr:var(--orange);"></span>TypeOfWeapon - Тип вашего оружия. В начале это Default.</li>
+    </ul>
+    <p>Игра сделана на <a href="https://turbowarp.org/" target="_blank">Турбоварпе</a> с расширениями.</p>
+    <a href="Rougelike.sb3">Скачать исходный код(Файл будет в sb3 формате, откройте турбоварп чтобы работать с ним.)</a>
+</body>
+</html>

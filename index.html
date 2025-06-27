@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Yuo.png">
+    <title>Roguelike site.</title>
+</head>
+<body>
+    <section id="language">
+        <ul style="font-size: 24px;">
+            <li><a href="indexru.html">Ru</a></li>
+            <li><a href="index.html">En</a></li>
+        </ul>
+    </section>
+    <h1>Roguelike <span class="yuo"></span></h1>
+    <p>It's my own game on roguelike genre.</p>
+    <p>Controls: WASD or ↑←↓→ to move, mouse click or space to shot.</p>
+    <p>So you want to play the <span style="text-decoration: underline;">game</span>?</p>
+    <a href="game.html" style="font-size: 40px;">Go, insert the coin.</a>
+    <p>The game will be in white background.</p>
+    <p>And will be show the stats of yuo(you).</p>
+    <img src="Stats.png" alt="Statistic of you." draggable="false">
+    <p>So let's find out what does they all mean.</p>
+    <ul class="left">
+        <li><span class="drop" style="--DropClr:var(--green);"></span>PlayerHealth - Your health. Can be added to maximum by heal drops - healthpack and medkit.</li>
+        <li><span class="drop" style="--DropClr:var(--magenta);"></span>MaxPlayerHp - Maximum of your health. So you can't overheal from healing drops.</li>
+        <li><span class="drop" style="--DropClr:var(--red);"></span>Damage - Your damage on bullets. Can be reduced by reload drop.</li>
+        <li><span class="drop" style="--DropClr:var(--cyan);"></span>Reload - Your attack reload. Can be added(means making attack will be less often) by damage drop.</li>
+        <li><span class="drop" style="--DropClr:var(--turquoise);"></span>MinReload - Minimum reload of your attack. Can't be changed while playing the game, but it can changed from weapon drops.</li>
+        <li><span class="drop" style="--DropClr:var(--yellow);"></span>BulletSpeed - Bullet speed of your attack.Can be added from bullet speed drops.</li>
+        <li><span class="drop" style="--DropClr:var(--blue);"></span>PlayerSpeed - Your movement. Can be reduced from armor drops.</li>
+        <li><span class="drop" style="--DropClr:var(--wh_gray);"></span>Armor - Your armor. Can be reduced from movement drops.</li>
+        <li><span class="drop" style="--DropClr:var(--bl_gray);"></span>MaxArmor - Maximum of your armor. Can be added from reaching limits of your stats.</li>
+        <li><span class="drop" style="--DropClr:var(--orange);"></span>TypeOfWeapon - Weapon type. On starting it's default.</li>
+    </ul>
+    <p>The game was made in <a href="https://turbowarp.org/" target="_blank">Turbowarp</a> with extensions.</p>
+    <a href="Rougelike.sb3">Install the source code(File will be in sb3 format, open Turbowarp to work with.)</a>
+</body>
+</html>
